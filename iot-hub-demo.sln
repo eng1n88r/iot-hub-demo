@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iot-hub-demo-client", "iot-hub-demo\iot-hub-demo-client.csproj", "{99B273D8-99A7-40DB-9356-DFD88A0C97A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iot-hub-message-processor", "iot-hub-message-processor\iot-hub-message-processor.csproj", "{6F49E5F8-99C5-4C3A-BA6C-CB9BD12CA5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iot-hub-protocol", "iot-hub-protocol\iot-hub-protocol.csproj", "{7C3E843F-B04C-4010-967C-55D077D01658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iot-hub-manager", "iot-hub-manager\iot-hub-manager.csproj", "{51D85FAF-056B-47F3-9204-FC6FA6077827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99B273D8-99A7-40DB-9356-DFD88A0C97A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B273D8-99A7-40DB-9356-DFD88A0C97A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B273D8-99A7-40DB-9356-DFD88A0C97A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B273D8-99A7-40DB-9356-DFD88A0C97A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F49E5F8-99C5-4C3A-BA6C-CB9BD12CA5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F49E5F8-99C5-4C3A-BA6C-CB9BD12CA5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F49E5F8-99C5-4C3A-BA6C-CB9BD12CA5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F49E5F8-99C5-4C3A-BA6C-CB9BD12CA5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3E843F-B04C-4010-967C-55D077D01658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3E843F-B04C-4010-967C-55D077D01658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3E843F-B04C-4010-967C-55D077D01658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3E843F-B04C-4010-967C-55D077D01658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D85FAF-056B-47F3-9204-FC6FA6077827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D85FAF-056B-47F3-9204-FC6FA6077827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D85FAF-056B-47F3-9204-FC6FA6077827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D85FAF-056B-47F3-9204-FC6FA6077827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED8B59DE-1818-4ADB-8AB6-CDD67F955224}
+	EndGlobalSection
+EndGlobal
